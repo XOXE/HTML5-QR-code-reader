@@ -1,4 +1,4 @@
-# HTML5-QR-code-reader
+# HTML5 - QR code reader
 Using the cross platform HTML5 QR code reader by https://github.com/dwa012
 ###Description
 --------------
