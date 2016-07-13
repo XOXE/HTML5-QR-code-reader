@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+audio { display:none;}
+
+.wrapper {
+  width: 300px;
+  height:300px;
+}
+
+.checkmark {
+  stroke:#09f01a;
+  stroke-dashoffset: 745.74853515625;
+  stroke-dasharray: 745.74853515625;
+  animation: dash 1s ease-out forwards;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 745.74853515625;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#check {
+	
+	position:fixed; 
+	width:100px;
+	height:100px; 
+	z-index:99; 
+	margin-left:85px; 
+	margin-top:50px; 
+	display:none;
+	
+}
+
+#mar {
+	
+	position:fixed; 
+	width:265px;
+	height:200px; 
+	z-index:100; 
+	background-image:url(../img/bar_qr.png);	
+	
+}
+
+#cont {
+	
+	position:relative; 
+	margin-left:auto; 
+	margin-right:auto; 
+	width:265px; 
+	height:200px;
+	
+}
+
+.reader {
+	
+	width:265px;
+	height:200px; 
+	background:#000; 
+	position:fixed; 
+	z-index:98;
+	
+}
